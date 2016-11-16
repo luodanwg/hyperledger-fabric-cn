@@ -1,7 +1,7 @@
 
 ## Roles & Personas
 
-#### _Roles_
+#### _角色_
 ---
 <table border="0">
 <col>
@@ -9,30 +9,30 @@
 <tr>
 <td width="20%"><b>Chain Member</b></td>
 <td>
-Entities that do not participate in the validation process of a blockchain network, but help to maintain the integrity of a network. Unlike Chain transactors, chain members maintain a local copy of the ledger.
+实体不参与blockchain网络的验证过程，但有助于保持网络的完整性。与链事务处理者不同，链成员维护分类帐的本地副本。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Chain Transactor</b></td>
+<td width="20%"><b>链的事务处理者</b></td>
 <td>
-Entities that have permission to create transactions and query network data.
+有权创建事务和查询网络数据的实体。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Chain Validator</b></td>
+<td width="20%"><b>链的验证者</b></td>
 <td>
-Entities that own a stake of a chain network. Each chain validator has a voice in deciding whether a transaction is valid, therefore chain validators can interrogate all transactions sent to their chain.
+拥有链网关系的实体。每个链验证器在确定事务是否有效时有投票权，因此链验证器可以询问发送到其链的所有事务。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Chain Auditor</b></td>
+<td width="20%"><b>链的审查者</b></td>
 <td>
-Entities with the permission to interrogate transactions.
+具有审查事务权限的实体。
 </td>
 </tr>
 </table>
 
-#### _Participants_
+#### __参与者_
 ---
 <table border="0">
 <col>
@@ -40,135 +40,106 @@ Entities with the permission to interrogate transactions.
 <tr>
 <td width="20%"><b>Solution User</b></td>
 <td>
-End users are agnostic about the details of chain networks, they typically initiate transactions on a chain network through applications made available by solutions providers.
+最终用户与链网络的细节无关，它们通常通过解决方案提供商提供的应用程序在链网络上发起交易。
 <p><p>
 <span style="text-decoration:underline">Roles:</span> None
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Solution Provider</b></td>
+<td width="20%"><b>解决方案提供商</b></td>
 <td>
-Organizations that develop mobile and/or browser based applications for end (solution) users to access chain networks. Some application owners may also be network owners.
+开发基于移动 和/或 基于浏览器的应用程序的组织，用于最终用户（解决方案）访问链网络。一些应用所有者也可以是网络所有者。
 <p><p>
-Roles: Chain Transactor
+Roles: 链的交易执行者
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Network Proprietor</b></td>
+<td width="20%"><b>网络所有者</b></td>
 <td>
-Proprietor(s) setup and define the purpose of a chain network. They are the stakeholders of a network.
+所有者设置和定义链网络的目的。他们是网络的利益相关者。
 <p><p>
-Roles: Chain Transactor, Chain Validator
+角色: 链的交易执行者, 链的验证者
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Network Owner</b></td>
+<td width="20%"><b>网络所有者</b></td>
 <td>
-Owners are stakeholders of a network that can validate transactions. After a network is first launched, its proprietor (who then becomes an owner) will invite business partners to co-own the network (by assigning them validating nodes). Any new owner added to a network must be approved by its existing owners.
+所有者是可以验证事务的网络的利益相关者。在网络首次启动后，其所有者（然后成为所有者）将邀请业务伙伴共同拥有网络（通过分配其验证节点）。添加到网络中的所有新所有者必须获得其现有所有者们的批准。
 <p><p>
-Roles: Chain Transactor, Chain Validator
+角色：链的交易执行着，链的验证者
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Network Member</b></td>
+<td width="20%"><b>网络成员</b></td>
 <td>
-Members are participants of a blockchain network that cannot validate transactions but has the right to add users to the network.
+成员是区块链网络的参与者，其不能验证交易，但是有权将用户添加到网络中。
 <p><p>
 Roles: Chain Transactor, Chain Member
+角色：链的交易执行者，链的成员
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Network Users</b></td>
+<td width="20%"><b>网络使用者</b></td>
 <td>
-End users of a network are also solution users. Unlike network owners and members, users do not own nodes. They transact with the network through an entry point offered by a member or an owner node.
+网络的最终用户也是解决方案用户。与网络所有者和成员不同，用户不具有节点。它们通过由成员或所有者节点提供的入口点与网络进行交易。
 <p><p>
-Roles: Chain Transactor
+角色：链的交易执行者
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Network Auditors</b></td>
+<td width="20%"><b>网络审查者</b></td>
 <td>
-Individuals or organizations with the permission to interrogate transactions.
+具有审查交易许可的个人或组织。
 <p><p>
-Roles: Chain Auditor
+角色：链的审查者
 </td>
 </tr>
 </table>
 
 &nbsp;
 
-## Business Network
+## 商业网络
 
-#### _Types of Networks (Business View)_
+#### _网络的类型 (商业视点)_
 ---
 <table border="0">
 <col>
 <col>
 <tr>
-<td width="20%"><b>Industry Network</b></td>
+<td width="20%"><b>工业网络</b></td>
 <td>
-A chain network that services solutions built for a particular industry.
+一个链式网络，为特定行业提供服务解决方案
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Regional Industry Network</b></td>
+<td width="20%"><b>区域产业网络</b></td>
 <td>
-A chain network that services applications built for a particular industry and region.
+一个链式网络，为特定行业和地区构建的应用程序提供服务。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Application Network</b></td>
+<td width="20%"><b>应用网络</b></td>
 <td>
-A chain network that only services a single solution.
+一个只服务单一解决方案的链式网络。
 </td>
 </tr>
 </table>
 
-#### _Types of Chains (Conceptual View)_
+#### _链的类型 (概念视点)_
 ---
 <table border="0">
 <col>
 <col>
 <tr>
-<td width="20%"><b>Main Chain</b></td>
+<td width="20%"><b>主链</b></td>
 <td>
-A business network; each main chain operates one or multiple applications/solutions validated by the same group of organizations.
+业务网络;每个主链操作由同一组组织验证的一个或多个应用/解决方案。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Confidential Chain</b></td>
+<td width="20%"><b>保密链</b></td>
 <td>
-A special purpose chain created to run confidential business logic that is only accessible by contract stakeholders.
-</td>
-</tr>
-</table>
-
-
-&nbsp;
-
-## Network Management
-
-#### _Member management_
----
-<table border="0">
-<col>
-<col>
-<tr>
-<td width="20%"><b>Owner Registration</b></td>
-<td>
-The process of registering and inviting new owner(s) to a blockchain network. Approval from existing network owners is required when adding or deleting a participant with ownership right
-</td>
-</tr>
-<tr>
-<td width="20%"><b>Member Registration</b></td>
-<td>
-The process of registering and inviting new network members to a blockchain network.
-</td>
-</tr>
-<tr>
-<td width="20%"><b>User Registration</b></td>
-<td>
-The process of registering new users to a blockchain network. Both members and owners can register users on their own behalf as long as they follow the policy of their network.
+创建用于运行保密业务逻辑的专用链，只能由合同利益相关者访问。
 </td>
 </tr>
 </table>
@@ -176,37 +147,68 @@ The process of registering new users to a blockchain network. Both members and o
 
 &nbsp;
 
-## Transactions
+## 网络管理
 
-#### _Types of Transactions_
+#### _成员管理_
 ---
 <table border="0">
 <col>
 <col>
 <tr>
-<td width="20%"><b>Deployment Transaction</b></td>
+<td width="20%"><b>所有者注册</b></td>
 <td>
-Transactions that deploy a new chaincode to a chain.
+向区块链网络注册和邀请新所有者的过程。给参与者添加或删除网络所有权时，需要获得现有网络所有者们的批准。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Invocation Transaction</b></td>
+<td width="20%"><b>成员注册</b></td>
 <td>
-Transactions that invoke a function on a chaincode.
+向区块链网络注册和邀请新网络成员的过程。
+</td>
+</tr>
+<tr>
+<td width="20%"><b>用户注册</b></td>
+<td>
+将新用户注册到区块链网络的过程。成员和所有者可以自己注册用户，只要他们遵循其网络的策略。
 </td>
 </tr>
 </table>
 
 
-#### _Confidentiality of Transactions_
+&nbsp;
+
+## 交易
+
+#### _交易类型_
 ---
 <table border="0">
 <col>
 <col>
 <tr>
-<td width="20%"><b>Public Transaction</b></td>
+<td width="20%"><b>部署事务</b></td>
+<td>
+将新链码部署到链的事务。
+</td>
+</tr>
+<tr>
+<td width="20%"><b>调用事务</b></td>
+<td>
+调用chaincode上的功能的事务。
+</td>
+</tr>
+</table>
+
+
+#### _交易保密性_
+---
+<table border="0">
+<col>
+<col>
+<tr>
+<td width="20%"><b>公共交易</b></td>
 <td>
 A transaction with its payload in the open. Anyone with access to a chain network can interrogate the details of public transactions.
+一个事务的是开放的。任何可以访问链式网络的人都可以查询公共交易的详细信息。
 </td>
 </tr>
 <tr>
