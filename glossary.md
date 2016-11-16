@@ -383,7 +383,7 @@ HPL提供状态支持;链码通过状态API访问内部状态存储。状态通�
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Transaction List</b></td>
+<td width="20%"><b>事务列表</b></td>
 <td>
 所有处理的事务都以其原始形式保存在帐本中（为加密内容的机密事务），以便网络参与者可以查询过去的具有访问权限的事务。
 </td>
@@ -409,13 +409,13 @@ HPL提供状态支持;链码通过状态API访问内部状态存储。状态通�
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Node Service</b></td>
+<td width="20%"><b>节点服务</b></td>
 <td>
 在负责处理事务，部署和执行链码，维护分类帐数据和触发共识过程的节点上的主模块。
 </td>
 </tr>
 <tr>
-<td width="20%"><b>Consensus</b></td>
+<td width="20%"><b>一致性</b></td>
 <td>
 Hyperledger结构的默认一致性算法是PBFT的实现。
 </td>
