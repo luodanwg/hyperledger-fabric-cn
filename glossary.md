@@ -212,7 +212,6 @@
 <tr>
 <td width="20%"><b>加密交易</b></td>
 <td>
-A transaction with its payload cryptographically hidden such that no one besides the stakeholders of a transaction can interrogate its content.
 加密隐藏内容的事务，这样除了交易的利益相关者之外没有人可以询问其内容。
 </td>
 </tr>
